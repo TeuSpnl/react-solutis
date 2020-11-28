@@ -1,0 +1,31 @@
+:root {
+  --bege-bisque: #ffe4c4;
+  --laranja-1: #ecbb32;
+  --laranja-2: #dbb742;
+  --laranja-3: #e9ac03;
+  --azul-claro: #9fe4f4;
+  --cadet-gray: #8D9DAD;
+  --purple-navy: #5B5A7D;
+  --purple-navy-lighter: #807eaa;
+  --indian-red: #D65459;
+  --olive-green: #AAAA55;
+  --burneshed-brown: #9F8080;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  background: #ebf2f5;
+}
+
+body,
+input,
+button,
+textarea {
+  font: 600 18px Merriweather, serif;
+}

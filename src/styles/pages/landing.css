@@ -1,0 +1,78 @@
+#page-landing {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(329.54deg, bisque 10%, var(--azul-claro) 100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--indian-red);
+}
+
+.main-image img{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+#page-landing .content {
+    position: relative;
+
+    width: 100%;
+    max-width: 1500px;
+
+    height: 100%;
+    max-height: 650px;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background: url('../../images/idosos-not-ready.png') no-repeat 100% 0%;
+}
+
+#page-landing .content main {
+    max-width: 500px;
+}
+
+#page-landing .content main h1 {
+    font-size: 76px;
+    font-weight: 900;
+    line-height: 100px;
+}
+
+#page-landing .content p {
+    margin-top: 7.2rem;
+    font-size: 24px;
+    line-height: 34px;
+
+    bottom: 0;
+}
+
+.content .enter-app {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    width: 8rem;
+    height: 4rem;
+    background: var(--purple-navy-lighter);
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color .3s;
+
+    text-decoration: none;
+    color: bisque;
+
+    font: 800 15pt parisianne, cursive;
+}
+
+.content .enter-app:hover {
+    background: var(--purple-navy);
+}

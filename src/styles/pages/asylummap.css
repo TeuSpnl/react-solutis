@@ -1,0 +1,88 @@
+#map-pg {
+    width: 100vw;
+    height: 100vh;
+
+    position: relative;
+    display: flex;
+
+    justify-content: center;
+
+    color: var(--indian-red);
+}
+
+#map-pg .leaflet-container {
+    z-index: 0;
+}
+
+#map-pg .choose {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    top: 15px;
+    margin: auto;
+    
+
+    background-color: bisque;
+
+    z-index: 10;
+
+    width: 27rem;
+    height: 5rem;
+    border-radius: 5rem;
+
+    font: 700 30pt Dancing Script, cursive;
+}
+
+#map-pg #button {
+    position: absolute;
+
+    width: 64px;
+    height: 64px;
+    background: bisque;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: background-color .3s;
+
+    z-index: 10;
+}
+
+#map-pg #button:hover {
+    background: var(--azul-claro);
+}
+
+#map-pg .back {
+    left: 40px;
+    bottom: 40px;
+}
+
+#map-pg .create-asylum {
+    right: 40px;
+    bottom: 40px;
+}
+
+#map-pg .map-popup .leaflet-popup-content-wrapper {
+    background: bisque;
+    border-radius: 15px;
+    box-shadow: none;
+}
+
+#page-map .map-popup .leaflet-popup-content {
+    color: var(--indian-red);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 8px 12px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page-map .map-popup .leaflet-popup-content {
+    
+}
