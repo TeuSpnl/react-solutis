@@ -15,7 +15,7 @@ function Landing() {
           
           <main>
               <h1>Você está na melhor idade pra ajudar quem precisa</h1>
-              <p>Conheça os asilos e os viste</p>
+              <p>Conheça os asilos e os visite</p>
           </main>
 
             <Link to= "/map" className="enter-app">
