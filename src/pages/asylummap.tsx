@@ -3,12 +3,13 @@ import { Link } from "react-router-dom";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import { FiArrowLeft, FiPlus, FiArrowRight } from "react-icons/fi";
 import Leaflet from "leaflet";
+import mapMarkerImg from '../images/pointer.svg'
 
 import "leaflet/dist/leaflet.css";
 import "../styles/pages/asylummap.css";
 
 const mapIcon = Leaflet.icon({
-  iconUrl: "../images/pointer.png",
+  iconUrl: mapMarkerImg,
 
   iconSize: [50, 50],
   iconAnchor: [25, 50],
@@ -46,7 +47,7 @@ function asylumMap() {
             <Link to="">
               <FiArrowRight size={20} color="var(--indian-red)" />
             </Link>
-            
+
           </Popup>
 
         </Marker>
